@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Telefônica</title>
+    <link rel="stylesheet" type="text/css" href="css/agenda.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <figure>
+                <img src="img/agenda.png" alt="agenda" />
+            </figure>
+            <h1>Lista de contatos</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="secaoForm">
+            <div class="secaoForm_form">
+                <input placeholder="Nome Completo" />
+                <input placeholder="Email" />
+                <input placeholder="Telefone" />
+                <button>Adicionar</button>
+            </div>
+        </section>
+
+        <section class="secaoContatos">
+            <ul class="secaoContatos_lista">
+                <li>
+                    <p>Não há contatos na sua lista</p>
+                </li>
+                <li>
+                    <button id="excluirContato"></button>
+                    <h2>Ana</h2>
+                    <p>ana@email.com</p>
+                    <span>999999999</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
