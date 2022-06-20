@@ -8,6 +8,7 @@
     <title>Agenda Telefônica</title>
     <link rel="stylesheet" type="text/css" href="css/agenda.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <script src="js/agenda.js"></script>
 </head>
 
 <body>
@@ -23,10 +24,10 @@
     <main>
         <section class="secaoForm">
             <div class="secaoForm_form">
-                <input placeholder="Nome Completo" />
-                <input placeholder="Email" />
-                <input placeholder="Telefone" />
-                <button>Adicionar</button>
+                <input id="#name" placeholder="Nome Completo" />
+                <input id="#email" placeholder="Email" />
+                <input id="#telefone" placeholder="Telefone" />
+                <button onclick="adicionar()">Adicionar</button>
             </div>
         </section>
 
@@ -37,9 +38,9 @@
                 </li>
                 <li>
                     <button id="excluirContato"></button>
-                    <h2>Ana</h2>
-                    <p>ana@email.com</p>
-                    <span>999999999</span>
+                    <h2 class="nomeContato"></h2>
+                    <p class="emailContato"></p>
+                    <span class="telefoneContato"></span>
                 </li>
             </ul>
         </section>
