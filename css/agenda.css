@@ -71,15 +71,15 @@ main section {
 }
 .secaoContatos_lista li h2 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 00;
 }
 .secaoContatos_lista li span {
 }
 .secaoContatos_lista li button {
-  float: right;
+  float: auto;
   background-image: url(../img/lixeira.png);
-  width: 30px;
-  height: 30px;
+  width: 22px;
+  height: 22px;
   background-size: 29px;
   background-position: center;
   background-repeat: no-repeat;
